@@ -1,0 +1,8 @@
+.categories-container {
+  display: flex;
+  padding: 15px;
+  padding-left: 0px;
+  padding-right: 5px;
+  justify-content: center;
+  
+}

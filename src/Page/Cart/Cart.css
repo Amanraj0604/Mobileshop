@@ -1,0 +1,160 @@
+.container {
+    
+  }
+  
+  .wrapper {
+    padding: 20px;
+    
+    /* Your Wrapper styles */
+  }
+  .wrapper1{
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .top-button {
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: black;
+  }
+  
+  .top-button.filled {
+    background-color: black;
+    color: white;
+  }
+  
+  .top-texts {
+    
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  
+  
+  .product {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .product-details {
+    flex: 2;
+    display: flex;
+  }
+  
+  .image {
+    width: 300px;
+  }
+  
+  .details {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .product-name {}
+  
+  .product-id {}
+  
+  .product-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  
+  .product-size {}
+  
+  .price-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-amount-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .product-amount {
+    font-size: 15px;
+    margin: 5px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+  }
+  
+  .product-price {
+    font-size: 30px;
+    font-weight: 200;
+  }
+  
+  .hr {
+    background: #282828;
+    border: none;
+    height: 3px;
+  }
+  
+  .summary {
+    flex: 1;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 47vh;
+  }
+  
+  .summary-title {
+    font-weight: 200;
+  }
+  
+  .summary-item {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    /* font-weight: ${props => props.type === "total" && "500"};
+    font-size: ${props => props.type === "total" && "24px"}; */
+  }
+  
+  .summary-item-text {
+    font-weight: 600;
+  }
+  
+  .summary-item-price {
+    font-weight: 700;
+  }
+  
+  .summary-button {
+    padding: 15px 120px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover {
+      color: white;
+      background: #000;
+      transition: all 1s ease-in-out;
+    }
+  }
+  

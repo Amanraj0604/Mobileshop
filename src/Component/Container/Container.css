@@ -1,0 +1,43 @@
+.home-layout{
+    display: flex;
+    margin-top: 4%;
+    background-color: rgb(8, 8, 8);
+    padding: 5px;
+ }
+ .left1{
+     flex: 45%;
+     justify-content: center;
+     margin-left: 10%;
+     margin-top: 45px;
+   
+ }
+ .left1 h1{
+     font-size: 45px;
+     background: linear-gradient(180deg, #ff9933 33%, white 33%, white 66%, #138808 66%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+ }
+ .left1 h2{
+     font-size: 25px;
+     background: linear-gradient(1800deg, #ff9933 33%, white 33%, white 66%, #138808 66%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+ }
+ .left1 h4{
+     font-size: 20px;
+     font-style:normal;
+     background: linear-gradient(180deg, #ff9933 33%, white 33%, white 66%, #138808 66%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+ }
+ .right1{
+     flex: 55%;
+     margin-top: 5%;
+     align-items: center;
+     margin-right: 25px;
+     
+
+ }
